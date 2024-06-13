@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<head>
+	<title>Feedback</title>
+	<link rel="stylesheet" href="feedback.css">
+</head>
+<body>
+	<div class="Box">
+		<div class="Inner_Box">
+		<form  method="POST" action="feedback.php">
+		<h1> Provide Your Feedback </h1>
+			<p> </p><br>
+			
+		
+				<input type="text" name="fname" placeholder="Name" required><br>
+				
+				<input type="email" name="email" placeholder="E-mail" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$" required><br>
+				
+				<input type="#" name="mno" placeholder="Mobile Number" maxlength="10" pattern="[0-9]{10}" required><br>
+				
+				<textarea name="comments" id="" cols="20" rows="8" placeholder="Type your comments here"></textarea>
+				
+				<input type="submit" value="Submit">	
+				
+			</form>
+		
+		</div>	
+	</div>
+</body>
+</html> 
