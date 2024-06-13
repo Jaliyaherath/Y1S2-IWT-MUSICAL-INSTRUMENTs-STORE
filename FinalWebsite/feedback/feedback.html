@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<head>
+	<title>Feedback</title>
+	<link rel="stylesheet" href="feedback.css">
+</head>
+	<!-- custom css file add -->
+	<link rel="stylesheet" href="style.css">
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="css/style1.css">
+	
+	
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatibla" content="IE=edge">
+	<meta name="viveport" content= "width=device-width, initial - scale=1.0">
+	
+
+
+</head>
+<body>
+<!-- header section starts  -->
+
+<header class="header">
+
+    <a href="#" class="logo"> <i class="fas fa-shopping-basket"></i> ABC MUSIC </a>
+
+    <nav class="navbar">
+        <a href="../Home/index.html">home</a>
+        <a href="../About_Us/AboutUs.html">About Us</a>
+		<a href="../Item/Item.html">Items</a>
+        <a href="../Payment/payment.html">Payment</a>
+		<a href="../contactus/contactus.html">Contact Us</a>
+		<a href="feedback.html">Feedback</a>
+		<a href="../MyAccount/myaccount.html">My Account</a>
+		<a href="../Item/Admin.php">Admin</a>
+    </nav>   
+
+</header>
+
+<!-- header section ends -->
+<body>
+	<div class="Box">
+		<div class="Inner_Box">
+		<form  method="POST" action="feedback.php">
+		<h1> Provide Your Feedback </h1>
+			<p> </p><br>
+			
+		
+				<input type="text" name="fname" placeholder="Name" required><br>
+				
+				<input type="email" name="email" placeholder="E-mail" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$" required><br>
+				
+				<input type="#" name="mno" placeholder="Mobile Number" maxlength="10" pattern="[0-9]{10}" required><br>
+				
+				<textarea name="comments" id="" cols="20" rows="8" placeholder="Type your comments here"></textarea>
+				
+				<input type="submit" value="Submit">	
+				
+			</form>
+		
+		</div>	
+	</div>
+</body>
+		<!-- footer section starts  -->
+
+<section class="footer">
+
+    <div class="box-container">
+
+        <div class="box">
+            <h3> ABC Music <i class="fas fa-shopping-basket"></i> </h3>
+            <p>All kind of music instruments!</p>
+            <div class="share">
+                <a href="#" class="fab fa-facebook-f"></a>
+                <a href="#" class="fab fa-twitter"></a>
+                <a href="#" class="fab fa-instagram"></a>
+                <a href="#" class="fab fa-linkedin"></a>
+            </div>
+        </div>
+
+        <div class="box">
+            <h3>contact info</h3>
+            <a href="#" class="links"> <i class="fas fa-phone"></i> +94 76 054 8038 </a>
+            <a href="#" class="links"> <i class="fas fa-phone"></i> +94 76 889 5635 </a>
+            <a href="#" class="links"> <i class="fas fa-envelope"></i> abcd123@gmail.com </a>
+            <a href="#" class="links"> <i class="fas fa-map-marker-alt"></i> Kandy, Polgolla srilanka </a>
+        </div>
+
+        <div class="box">
+            <h3>quick links</h3>
+            <a href="../Home/index.html" class="links"> <i class="fas fa-arrow-right"></i> Home </a>
+            <a href="../About_Us/AboutUs.html" class="links"> <i class="fas fa-arrow-right"></i> About Us </a>
+            <a href="../Online Shop/Item.html" class="links"> <i class="fas fa-arrow-right"></i> Items </a>
+            <a href="../Payment/payment.html" class="links"> <i class="fas fa-arrow-right"></i> Payment </a>
+            <a href="../contactus/contactus.html" class="links"> <i class="fas fa-arrow-right"></i> Contact Us </a>
+			<a href="feedback.html" class="links"> <i class="fas fa-arrow-right"></i> Feedback </a>
+        </div>
+
+        <div class="box">
+            <h3>newsletter</h3>
+            <p>subscribe for latest updates</p>
+            <input type="email" placeholder="your email" class="email">
+            <input type="submit" value="subscribe" class="btn">
+            <img src="images/payment.png" class="payment-img" alt="">
+        </div>
+
+    </div>
+
+    <div class="credit"> created by <span>KDY_GROUP_02</span> | all rights reserved </div>
+
+</section>
+
+<!-- footer section ends -->
+</html> 
